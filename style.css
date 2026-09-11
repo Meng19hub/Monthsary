@@ -1,0 +1,81 @@
+body{
+  margin:0;
+  font-family: Georgia, serif;
+  background:#f5f1eb;
+}
+
+.page{
+  display:none;
+  height:100vh;
+  justify-content:center;
+  align-items:center;
+}
+
+.active{
+  display:flex;
+}
+
+.card{
+  width:90%;
+  max-width:600px;
+  background:white;
+  padding:35px;
+  text-align:center;
+  border-radius:20px;
+  box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+h1{
+  font-size:40px;
+  color:#444;
+}
+
+h2{
+  color:#555;
+}
+
+.bear{
+  font-size:55px;
+}
+
+.btns{
+  margin-top:25px;
+}
+
+button{
+  padding:12px 22px;
+  margin:8px;
+  border:2px solid #555;
+  border-radius:30px;
+  background:white;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#555;
+  color:white;
+}
+
+.choices{
+  display:flex;
+  justify-content:center;
+  gap:18px;
+  margin:30px 0;
+}
+
+.box{
+  width:90px;
+  height:90px;
+  border:3px solid #7d8aa6;
+  border-radius:18px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:42px;
+  cursor:pointer;
+}
+
+#letter{
+  text-align:justify;
+  line-height:1.8;
+}
